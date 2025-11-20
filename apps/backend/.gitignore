@@ -8,6 +8,9 @@ venv/
 env/
 ENV/
 .venv
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
 # IDE
 .vscode/
@@ -21,3 +24,7 @@ ENV/
 
 # Qdrant
 qdrant.db
+
+# test
+htmlcov
+.coverage
